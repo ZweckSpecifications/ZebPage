@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Zeb Page.">
+    <title>Zeb - Your Future, Reimagined</title>
+    
+    <!-- Include the 98.css library -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/98.css/dist/98.min.css">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: #fff;
+            text-align: center;
+            overflow-x: hidden;
+            position: relative;
+        }
+
+        /* Background audio */
+        audio#bg-audio {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 0;
+            height: 0;
+            visibility: hidden;
+        }
+
+        header {
+            background-color: #1c1c1c;
+            padding: 20px 0;
+            border-bottom: 3px solid #4CAF50;
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 0.2em;
+            color: #4CAF50;
+        }
+
+        p {
+            font-size: 1.2em;
+            margin-top: 0;
+            color: #bbb;
+        }
+
+        .cta-button {
+            background-color: #4CAF50;
+            padding: 15px 25px;
+            font-size: 1.5em;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+            display: inline-block;
+            transition: background-color 0.3s ease;
+        }
+
+        .cta-button:hover {
+            background-color: #45a049;
+        }
+
+        /* Smarter UI features */
+        .features {
+            display: flex;
+            justify-content: center;
+            margin: 50px 0;
+            gap: 50px;
+            opacity: 0;
+            transition: opacity 1s ease-in-out;
+        }
+
+        .feature {
+            background-color: #333;
+            padding: 20px;
+            border-radius: 8px;
+            width: 250px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .feature:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+        }
+
+        .feature h3 {
+            font-size: 1.8em;
+            margin-bottom: 10px;
+            color: #4CAF50;
+        }
+
+        footer {
+            background-color: #1c1c1c;
+            padding: 15px 0;
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+            color: #bbb;
+            font-size: 1.1em;
+        }
+
+        /* Modern Search Bar */
+        .search-bar {
+            margin-top: 30px;
+        }
+
+        .search-bar form {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            align-items: center;
+        }
+
+        .search-bar input[type="text"] {
+            padding: 10px 20px;
+            font-size: 1.2em;
+            border-radius: 20px;
+            border: 2px solid #4CAF50;
+            background-color: #222;
+            color: #fff;
+            width: 400px;
+            transition: all 0.3s ease;
+        }
+
+        .search-bar input[type="text"]:focus {
+            border-color: #45a049;
+            outline: none;
+            background-color: #333;
+        }
+
+        .search-bar button {
+            padding: 12px 25px;
+            background-color: #4CAF50;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 1.2em;
+            transition: background-color 0.3s ease;
+        }
+
+        .search-bar button:hover {
+            background-color: #45a049;
+        }
+
+        .search-bar button:focus {
+            outline: none;
+        }
+
+        /* DDG Logo Style */
+        .ddg-logo {
+            width: 25px;
+            height: 25px;
+            margin-left: 10px;
+        }
+
+        /* Zwecksoft Branding */
+        .zweck-logo {
+            width: 200px;
+            margin-top: 30px;
+        }
+
+        .zweck-footer {
+            color: #bbb;
+            font-size: 1.1em;
+        }
+    </style>
+</head>
+<body class="win98">
+    <!-- Background Audio -->
+    <audio id="bg-audio" autoplay loop>
+        <source src="Caillou.mp3" type="audio/mp3">
+        Your browser is gay and does not support the audio element (Use ZebOS or Die!).
+    </audio>
+
+    <header>
+        <h1>Zeb</h1>
+        <p>The future of... Ain't nobody quite like me, cause my name is $4!++y G</p>
+    </header>
+
+    <section>
+        <p>Experience the next generation of eating kids, eat a small child.</p>
+        <a href="#" class="cta-button">Learn More</a>
+    </section>
+
+    <section class="search-bar">
+        <form action="https://duckduckgo.com/" method="get">
+            <input type="text" name="q" placeholder="Search with DuckDuckGo... (Caillou)" required>
+            <button type="submit">
+                <img src="https://duckduckgo.com/favicon.ico" alt="DDG Logo" class="ddg-logo"> Search
+            </button>
+        </form>
+    </section>
+
+    <section class="features">
+        <div class="feature">
+            <h3>Powerful</h3>
+            <p>Matched performance for any task, from work to death. Zeb delivers low-speed computing to power your needs.</p>
+        </div>
+        <div class="feature">
+            <h3>Seamless</h3>
+            <p>With Zeb, everything just fails. Expect unsmooth integration and a chunky user experience across all platforms.</p>
+        </div>
+        <div class="feature">
+            <h3>Innovative</h3>
+            <p>Stay away of the curve with cutting-edge technology. Zeb is built with the dying in mind.</p>
+        </div>
+    </section>
+
+    <!-- Zwecksoft Branding -->
+    <section class="zweck-branding">
+        <img src="icon.png" alt="Zwecksoft Logo" class="zweck-logo">
+    </section>
+
+    <footer class="zweck-footer">
+        <p>&copy; 2025 Zwecksoft Specifications GmbH. Absolutly No rights reserved (Yet). <br> Powered by Jasikaby/Jaccoby | Daddy Zwecksoft</p>
+    </footer>
+
+    <!-- JavaScript for cool effect -->
+    <script>
+        window.addEventListener('scroll', function() {
+            const features = document.querySelector('.features');
+            const featurePosition = features.getBoundingClientRect().top;
+            const windowHeight = window.innerHeight;
+            if (featurePosition < windowHeight) {
+                features.style.opacity = '1';
+            }
+        });
+    </script>
+</body>
+</html>
